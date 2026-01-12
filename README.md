@@ -3,15 +3,15 @@
 
 This repository provides code and resources for training and evaluating **ChenseNet121**, a flexible deep learning architecture based on DenseNet121, adapted for **multimodal toxicity prediction**. The model integrates:
 
-- 🧪 2D molecular images  
-- 🧬 3D molecular descriptors (both 2×2×2 and 25×25×25 volumes)  
-- 📊 Numerical features from SMILES strings and docking affinities  
+-  2D molecular images  
+-  3D molecular descriptors (both 2×2×2 and 25×25×25 volumes)  
+-  Numerical features from SMILES strings and docking affinities  
 
 The goal is to estimate the **Acute Oral LD50** values of chemical compounds, aiding in the reduction of animal testing through in silico methods.
 
 ---
 
-## 🔧 Project Structure
+##  Project Structure
 
 ```
 ├── densenet121.py                  # ChenseNet121 model architecture
@@ -34,7 +34,7 @@ The goal is to estimate the **Acute Oral LD50** values of chemical compounds, ai
 
 ---
 
-## 📦 Installation
+##  Installation
 
 We recommend using [Anaconda](https://www.anaconda.com/) to set up the environment:
 
@@ -53,7 +53,7 @@ conda activate ld50env
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Training with Cross-Validation
 
@@ -91,7 +91,7 @@ python main.py
 
 ---
 
-## 📁 Dataset Structure
+##  Dataset Structure
 
 Place all required data in the `./dataset/` folder:
 
@@ -104,7 +104,7 @@ Place all required data in the `./dataset/` folder:
 
 ---
 
-## 📄 Reference
+##  Reference
 
 If you use this code or data, please cite:
 
@@ -112,7 +112,7 @@ If you use this code or data, please cite:
 
 ---
 
-## 🧠 About the Model
+##  About the Model
 
 **ChenseNet121** extends DenseNet121 with:
 - 2D convolutional branches for RGB images  
