@@ -1,0 +1,289 @@
+Code,Common Name,Trade Name,Molecular Formula,SMILES,Affinity 7E3D,Affinity 8DT2,Image Path,Acute Oral LD50,Acute Dermal LD50
+1982,acephate,"Orthene, Payload",C4H10NO3PS,CC(=O)NP(=O)(OC)SC,-4.6,-4.8,./images/CID_1982.png,980.0,10250.0
+213021,acetamiprid,Intruder,C10H11ClN4,CC(=NC#N)N(C)CC1=CN=C(C=C1)Cl,-6.2,-6.1,./images/CID_213021.png,866.0,2000.0
+9570071,aldicarb,Temik,C7H14N2O2S,CC(C)(/C=N/OC(=O)NC)SC,-5.1,-5.2,./images/CID_9570071.png,1.0,20.0
+9570071,aldicarb,Temik,C7H14N2O2S,CC(C)(/C=N/OC(=O)NC)SC,-5.1,-5.2,./images/CID_9570071.png,1.0,20.0
+11442,allethrin,(many),C19H26O3,CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,-7.4,-6.8,./images/CID_11442.png,480.0,11200.0
+36324,amitraz,"Mitac",C19H23N3,CC1=CC(=C(C=C1)N=CN(C)C=NC2=C(C=C(C=C2)C)C)C,-7.7,-6.9,./images/CID_36324.png,800.0,200.0
+56608859,beta-cyfluthrin,Cylence Ultr,C22H18Cl2FNO3,CC1([C@H](C1C=C(Cl)Cl)C(=O)O[C@@H](C#N)C2=CC(=C(C=C2)F)OC3=CC=CC=C3)C,-8.8,-8.2,./images/CID_56608859.png,960.0,2000.0
+6442842,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-9.1,-7.7,./images/CID_6442842.png,375.0,2000.0
+10938769,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-9.8,-7.2,./images/CID_10938769.png,375.0,2000.0
+5281872,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-9.5,-8.2,./images/CID_5281872.png,375.0,2000.0
+54901,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-9.5,-7.9,./images/CID_54901.png,375.0,2000.0
+29934831,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-9.2,-7.3,./images/CID_29934831.png,375.0,2000.0
+86739665,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-10.0,-7.0,./images/CID_86739665.png,375.0,2000.0
+71593923,bifenthrin,"Capture, Talstar, Onyx",C23H22ClF3O2,CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)[C@@H]3[C@@H](C3(C)C)/C=C(/C(F)(F)F)\Cl,-9.3,-7.9,./images/CID_71593923.png,375.0,2000.0
+7628,boric acid,Roach Prufe,BH3O3,B(O)(O)O,0,0,./images/CID_7628.png,35000.0,10000.0
+50367,buprofezin,"Applaud, Courier, Talas",C16H23N3OS,CC(C)N1C(=NC(C)(C)C)SCN(C1=O)C2=CC=CC=C2,-6.1,-5.5,./images/CID_50367.png,5000.0,2000.0
+6129,Carbaryl,Sevin,C12H11NO2,CNC(=O)OC1=CC=CC2=CC=CC=C21,-7.3,-6.6,./images/CID_6129.png,264.5,4000.0
+2730,chlorpyrifos,"Lorsban, Dursban, Durap",C9H11Cl3NO3PS,CCOP(=S)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl,-6.0,-6.1,./images/CID_2730.png,183.0,2000.0
+21803,chlorpyrifos-methyl,Reldan,C7H7Cl3NO3PS,COP(=S)(OC)OC1=NC(=C(C=C1Cl)Cl)Cl,-6.0,-5.7,./images/CID_21803.png,2350.0,3700.0
+73670,clofentezine,"Apollo, Ovation",C14H8Cl2N4,C1=CC=C(C(=C1)C2=NN=C(N=N2)C3=CC=CC=C3Cl)Cl,-7.5,-6.2,./images/CID_73670.png,5000.0,2400.0
+86287519,clothianidin,"Arena, Celero, Poncho",C6H8ClN5O2S,CN/C(=N\[N+](=O)[O-])/NCC1=CN=C(S1)Cl,-6.3,-6.2,./images/CID_86287519.png,4000.0,5000.0
+135529435,clothianidin,"Arena, Celero, Poncho",C6H8ClN5O2S,CN/C(=N\[N+](=O)[O-])/NCC1=CN=C(S1)Cl,-6.4,-6.3,./images/CID_135529435.png,4000.0,5000.0
+135779804,clothianidin,"Arena, Celero, Poncho",C6H8ClN5O2S,CN/C(=N\[N+](=O)[O-])/NCC1=CN=C(S1)Cl,-6.1,-6.4,./images/CID_135779804.png,4000.0,5000.0
+146158032,clothianidin,"Arena, Celero, Poncho",C6H8ClN5O2S,CN/C(=N\[N+](=O)[O-])/NCC1=CN=C(S1)Cl,-6.1,-6.3,./images/CID_146158032.png,4000.0,5000.0
+136257761,clothianidin,"Arena, Celero, Poncho",C6H8ClN5O2S,CN/C(=N\[N+](=O)[O-])/NCC1=CN=C(S1)Cl,-5.9,-6.5,./images/CID_136257761.png,4000.0,5000.0
+2871,coumaphos,Co-Ral,C14H16ClO5PS,CCOP(=S)(OCC)OC1=CC2=C(C=C1)C(=C(C(=O)O2)Cl)C,-6.5,-6.5,./images/CID_2871.png,140.0,860.0
+104926,cyfluthrin,"Baythroid, Tempo, others",C22H18Cl2FNO3,CC1(C(C1C(=O)OC(C#N)C2=CC(=C(C=C2)F)OC3=CC=CC=C3)C=C(Cl)Cl)C,-8.3,-7.5,./images/CID_104926.png,826.0,0.2
+2912,cypermethrin,"Ammo, others",C22H19Cl2NO3,CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C,-8.8,-8.5,./images/CID_2912.png,250.0,2000.0
+86367,cyprodinil,Vanguard,C14H15N3,CC1=CC(=NC(=N1)NC2=CC=CC=C2)C3CC3,-8.0,-8.1,./images/CID_86367.png,2000.0,2000.0
+47866,cyromazine,"Citation, Larvadex, Triga Syngenta",C6H10N6,C1CC1NC2=NC(=NC(=N2)N)N,-6.2,-6.0,./images/CID_47866.png,3387.0,3100.0
+3036,DDT,–,C14H9Cl5,C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)C(Cl)(Cl)Cl)Cl,-5.0,-6.1,./images/CID_3036.png,113.0,2510.0
+40585,deltamethrin,"Decis, DeltaGard, Susper",C22H19Br2NO3,CC1([C@H]([C@H]1C(=O)O[C@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,-8.2,-7.5,./images/CID_40585.png,129.0,2000.0
+3017,diazinon,"Diazinon, Spectracide",C12H21N2O3PS,CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C,-6.7,-6.8,./images/CID_3017.png,350.0,3600.0
+3039,dichlorvos,"DDVP, Vapona",C4H7Cl2O4P,COP(=O)(OC)OC=C(Cl)Cl,-4.8,-4.8,./images/CID_3039.png,80.0,106.0
+5371560,dicrotophos,Bidrin,C8H16NO5P,C/C(=C\C(=O)N(C)C)/OP(=O)(OC)OC,-5.2,-5.6,./images/CID_5371560.png,19.5,224.0
+16686,dienochlor,Pentac,C10Cl10,C1(=C(C(C(=C1Cl)Cl)(C2(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl)Cl,-3.0,-2.2,./images/CID_16686.png,3160.0,3160.0
+37123,diflubenzuron,"Dimilin, Adept",C14H9ClF2N2O2,C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC=C(C=C2)Cl)F,-8.5,-7.0,./images/CID_37123.png,4640.0,10000.0
+3082,dimethoate,"Dimethoate, Cygon",C5H12NO3PS2,CNC(=O)CSP(=S)(OC)OC,-4.7,-4.8,./images/CID_3082.png,235.0,400.0
+3118,disulfoton,Di-Syston,C8H19O2PS3,CCOP(=S)(OCC)SCCSCC,-4.2,-4.9,./images/CID_3118.png,4.0,10.0
+91581,d-Phenothrin,Summithrin,C23H26O3,CC(=C[C@@H]1[C@H](C1(C)C)C(=O)OCC2=CC(=CC=C2)OC3=CC=CC=C3)C,-7.9,-8.2,./images/CID_91581.png,10000.0,10000.0
+3224,endosulfan,"Thiodan, Phaser",C9H6Cl6O3S,C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl,-2.1,0.1,./images/CID_3224.png,160.0,359.0
+10342051,esfenvalerate,Asana,C25H22ClNO3,CC(C)[C@@H](C1=CC=C(C=C1)Cl)C(=O)O[C@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3,-9.2,-7.4,./images/CID_10342051.png,458.0,2000.0
+5859,famphur,"Warbex, Famophos",C10H16NO5PS2,CN(C)S(=O)(=O)C1=CC=C(C=C1)OP(=S)(OC)OC,-5.9,-5.3,./images/CID_5859.png,40.0,1460.0
+16683004,fenbutatin-oxide,Vendix,C60H78OSn2,CC(C)(C[Sn](CC(C)(C)C1=CC=CC=C1)(CC(C)(C)C2=CC=CC=C2)O[Sn](CC(C)(C)C3=CC=CC=C3)(CC(C)(C)C4=CC=CC=C4)CC(C)(C)C5=CC=CC=C5)C6=CC=CC=C6,0,0,./images/CID_16683004.png,2631.0,2000.0
+51605,fenoxycarb,"Logic, reclude",C17H19NO4,CCOC(=O)NCCOC1=CC=C(C=C1)OC2=CC=CC=C2,-7.5,-7.4,./images/CID_51605.png,16800.0,2000.0
+47326,fenpropathrin,"Tame, Danitol",C24H27N3O4,CC1(C(C1(C)C)C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C,-8.3,-7.3,./images/CID_47326.png,117.5,2000.0
+9576412,Fenpyroximate,"Akari, Fujimite",C25H34N2O4,CC1=NN(C(=C1/C=N/OCC2=CC=C(C=C2)C(=O)OC(C)(C)C)OC3=CC=CC=C3)C,-9.1,-7.9,./images/CID_9576412.png,7193.0,4000.0
+6002001,Fenpyroximate,"Akari, Fujimite",C25H34N2O4,CC1=NN(C(=C1/C=N/OCC2=CC=C(C=C2)C(=O)OC(C)(C)C)OC3=CC=CC=C3)C,-9.0,-7.6,./images/CID_6002001.png,7193.0,4000.0
+107760,Fenpyroximate,"Akari, Fujimite",C25H34N2O4,CC1=NN(C(=C1/C=N/OCC2=CC=C(C=C2)C(=O)OC(C)(C)C)OC3=CC=CC=C3)C,-9.0,-8.0,./images/CID_107760.png,7193.0,4000.0
+3346,fenthion,"Spont-On, Tiguvon",C10H15O3PS2,CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,-5.3,-5.5,./images/CID_3346.png,250.0,1000.0
+3347,fenvalerate,"Belmark, Tribute",C25H22ClNO3,CC(C)C(C1=CC=C(C=C1)Cl)C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3,-9.3,-7.5,./images/CID_3347.png,451.0,5000.0
+3352,fipronil,Termifor,C12H4Cl2F6N4OS,C1=C(C=C(C(=C1Cl)N2C(=C(C(=N2)C#N)S(=O)C(F)(F)F)N)Cl)C(F)(F)F,-6.1,-8.0,./images/CID_3352.png,5000.0,2000.0
+50516,fluvalinate,"Mavrik, Yardex",C26H22ClF3N2O3,CC(C)C(C(=O)OC(C#N)C1=CC(=CC=C1)OC2=CC=CC=C2)NC3=C(C=C(C=C3)C(F)(F)F)Cl,-8.9,-8.1,./images/CID_50516.png,271.5,20000.0
+6440554,gamma-Cyhalothrin,Proaxis,C23H19ClF3NO3,CC1([C@H]([C@H]1C(=O)O[C@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)/C=C(/C(F)(F)F)\Cl)C,-8.6,-7.5,./images/CID_6440554.png,79.0,632.0
+114994,halofenozide,Mach 2,C18H19ClN2O2,CC(C)(C)N(C(=O)C1=CC=CC=C1)NC(=O)C2=CC=C(C=C2)Cl,-6.1,-5.9,./images/CID_114994.png,5000.0,2000.0
+5281875,hydramethylnon,"Combat,Amdro",C25H24F6N4,CC1(CN=C(NC1)NN=C(/C=C/C2=CC=C(C=C2)C(F)(F)F)/C=C/C3=CC=C(C=C3)C(F)(F)F)C,-6.3,-5.1,./images/CID_5281875.png,1131.0,2000.0
+5372477,hydroprene,Gen Trol,C17H30O2,CCOC(=O)/C=C(\C)/C=C/CC(C)CCCC(C)C,-7.1,-6.5,./images/CID_5372477.png,34000.0,5100.0
+86287518,imidacloprid,"Admire, Marahion, Premise",C9H10ClN5O2,C1CN(/C(=N/[N+](=O)[O-])/N1)CC2=CN=C(C=C2)Cl,-6.5,-6.9,./images/CID_86287518.png,450.0,5000.0
+135527764,imidacloprid,"Admire, Marahion, Premise",C9H10ClN5O2,C1CN(/C(=N/[N+](=O)[O-])/N1)CC2=CN=C(C=C2)Cl,-6.6,-7.0,./images/CID_135527764.png,450.0,5000.0
+135541675,imidacloprid,"Admire, Marahion, Premise",C9H10ClN5O2,C1CN(/C(=N/[N+](=O)[O-])/N1)CC2=CN=C(C=C2)Cl,-6.4,-6.5,./images/CID_135541675.png,450.0,5000.0
+107720,indoxacarb,Avaunt Steward,C22H17ClF3N3O7,COC(=O)[C@]12CC3=C(C1=NN(CO2)C(=O)N(C4=CC=C(C=C4)OC(F)(F)F)C(=O)OC)C=CC(=C3)Cl,-3.9,-0.2,./images/CID_107720.png,1867.0,5000.0
+39223,isazofos,Triumph,C9H17ClN3O3PS,CCOP(=S)(OCC)OC1=NN(C(=N1)Cl)C(C)C,-6.0,-5.9,./images/CID_39223.png,50.0,3100.0
+32872,isofenphos,Amaze,C15H24NO4PS,CCOP(=S)(NC(C)C)OC1=CC=CC=C1C(=O)OC(C)C,-6.8,-6.7,./images/CID_32872.png,20.0,162.0
+6434236,kinoprene,Enstar,C18H28O2,CC(C)CCCC(C)C/C=C/C(=C/C(=O)OCC#C)/C,-6.9,-6.5,./images/CID_6434236.png,4950.0,9000.0
+6440557,lambda-cyhalothrin,Demand,C23H19ClF3NO3,CC1([C@@H]([C@@H]1C(=O)O[C@@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)/C=C(/C(F)(F)F)\Cl)C,-8.3,-7.5,./images/CID_6440557.png,79.0,632.0
+6440554,lambda-cyhalothrin,Demand,C23H19ClF3NO3,CC1([C@@H]([C@@H]1C(=O)O[C@@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)/C=C(/C(F)(F)F)\Cl)C,-8.6,-7.5,./images/CID_6440554.png,79.0,632.0
+5281873,lambda-cyhalothrin,Demand,C23H19ClF3NO3,CC1([C@@H]([C@@H]1C(=O)O[C@@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)/C=C(/C(F)(F)F)\Cl)C,-9.1,-8.3,./images/CID_5281873.png,79.0,632.0
+443046,lambda-cyhalothrin,Demand,C23H19ClF3NO3,CC1([C@@H]([C@@H]1C(=O)O[C@@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)/C=C(/C(F)(F)F)\Cl)C,-8.8,-8.7,./images/CID_443046.png,79.0,632.0
+6435500,lambda-cyhalothrin,Demand,C23H19ClF3NO3,CC1([C@@H]([C@@H]1C(=O)O[C@@H](C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)/C=C(/C(F)(F)F)\Cl)C,-7.9,-7.6,./images/CID_6435500.png,79.0,632.0
+727,lindane,"Lindane, others",C6H6Cl6,C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl,-4.0,-3.5,./images/CID_727.png,200.0,2000.0
+4004,malathion,"Cythion, Malathion",C10H19O6PS2,CCOC(=O)CC(C(=O)OCC)SP(=S)(OC)OC,-5.4,-6.1,./images/CID_4004.png,2800.0,4100.0
+61021,metaldehyde,Deadline,C8H16O4,CC1OC(OC(OC(O1)C)C)C,-5.7,-5.5,./images/CID_61021.png,283.0,5000.0
+13709,methidathion,Supracide,C6H11N2O4PS3,COC1=NN(C(=O)S1)CSP(=S)(OC)OC,-5.0,-5.2,./images/CID_13709.png,34.5,1546.0
+4109,methomyl,Lannate,C5H10N2O2S,CC(=NOC(=O)NC)SC,-4.7,-4.9,./images/CID_4109.png,17.0,5000.0
+4420,naled,"Dibrom, Trumpet",C4H7Br2Cl2O4P,COP(=O)(OC)OC(C(Cl)(Cl)Br)Br,-5.2,-5.1,./images/CID_4420.png,376.0,1100.0
+89594,nicotine,(many,C10H14N2,CN1CCC[C@H]1C2=CN=CC=C2,-5.7,-5.8,./images/CID_89594.png,55.0,
+9595287,oxamyl,Vydate,C7H13N3O3S,CNC(=O)O/N=C(/C(=O)N(C)C)\SC,-5.4,-5.4,./images/CID_9595287.png,37.0,2960.0
+31657,oxamyl,Vydate,C7H13N3O3S,CNC(=O)O/N=C(/C(=O)N(C)C)\SC,-5.2,-5.4,./images/CID_31657.png,37.0,2960.0
+5366286,oxamyl,Vydate,C7H13N3O3S,CNC(=O)O/N=C(/C(=O)N(C)C)\SC,-5.4,-5.4,./images/CID_5366286.png,37.0,2960.0
+4618,oxydemeton-methyl,Meta-Systox-R,C6H15O4PS2,CCS(=O)CCSP(=O)(OC)OC,-4.7,-4.7,./images/CID_4618.png,54.5,137.0
+4130,parathion-methyl,Methyl Parathion,C8H10NO5PS,COP(=S)(OC)OC1=CC=C(C=C1)[N+](=O)[O-],-5.8,-6.0,./images/CID_4130.png,25.0,25.0
+40326,permethrin,"Ambush, Astro, others",C21H20Cl2O3,CC1(C(C1C(=O)OCC2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C,-8.6,-8.4,./images/CID_40326.png,2215.0,2000.0
+4790,phorate,"Thimet, GX-118",C7H17O2PS3,CCOP(=S)(OCC)SCSCC,-4.5,-4.8,./images/CID_4790.png,4.0,6.0
+12901,phosmet,"Imidan, Prolate",C11H12NO4PS2,COP(=S)(OC)SCN1C(=O)C2=CC=CC=C2C1=O,-6.1,-6.3,./images/CID_12901.png,231.5,4640.0
+1004,phosphoric acid,Foray,H3O4P,OP(=O)(O)O,-3.4,-3.3,./images/CID_1004.png,1530.0,2740.0
+5794,piperonyl butoxide,(many),C19H30O5,CCCCOCCOCCOCC1=CC2=C(C=C1CCC)OCO2,-6.6,-6.8,./images/CID_5794.png,7500.0,
+34526,pirimiphos methyl,"Actellic, Dominator, others",C11H20N3O3PS,CCN(CC)C1=NC(=CC(=N1)OP(=S)(OC)OC)C,-5.9,-6.3,./images/CID_34526.png,2000.0,4592.0
+38779,profenofos,Cura Cron,C11H15BrClO3PS,CCCSP(=O)(OCC)OC1=C(C=C(C=C1)Br)Cl,-5.9,-6.1,./images/CID_38779.png,358.0,277.0
+4936,propargite,"Omite, Comite",C19H26O4S,CC(C)(C)C1=CC=C(C=C1)OC2CCCCC2OS(=O)OCC#C,-7.6,-7.1,./images/CID_4936.png,4029.0,2940.0
+5372405,propetamphos,Catalyst,C10H20NO4PS,CCNP(=S)(OC)O/C(=C/C(=O)OC(C)C)/C,-5.2,-5.5,./images/CID_5372405.png,119.0,2825.0
+4944,propoxur,"Baygon, others",C11H15NO3,CC(C)OC1=CC=CC=C1OC(=O)NC,-6.4,-6.7,./images/CID_4944.png,500.0,5000.0
+9576037,pymetrozine,Fulfill,C10H11N5O,CC1=NNC(=O)N(C1)/N=C/C2=CN=CC=C2,-6.9,-7.0,./images/CID_9576037.png,5000.0,2000.0
+6035169,pymetrozine,Fulfill,C10H11N5O,CC1=NNC(=O)N(C1)/N=C/C2=CN=CC=C2,-6.8,-6.9,./images/CID_6035169.png,5000.0,2000.0
+86370,pymetrozine,Fulfill,C10H11N5O,CC1=NNC(=O)N(C1)/N=C/C2=CN=CC=C2,-6.7,-7.3,./images/CID_86370.png,5000.0,2000.0
+91754,pyridaben,"Nexter, Sanmite",C19H25ClN2OS,CC(C)(C)C1=CC=C(C=C1)CSC2=C(C(=O)N(N=C2)C(C)(C)C)Cl,-7.7,-5.8,./images/CID_91754.png,1085.0,2000.0
+91753,pyriproxyfen,Distance,C20H19NO3,CC(COC1=CC=C(C=C1)OC2=CC=CC=C2)OC3=CC=CC=N3,-8.2,-7.6,./images/CID_91753.png,5000.0,2000.0
+6758,rotenone,(many),C23H22O6,CC(=C)[C@H]1CC2=C(O1)C=CC3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@H]4C3=O)OC)OC,-7.1,-7.6,./images/CID_6758.png,350.0,940.0
+9907412,spiromesifen,Oberon,C23H30O4,CC1=CC(=C(C(=C1)C)C2=C(C3(CCCC3)OC2=O)OC(=O)CC(C)(C)C)C,-4.7,0,./images/CID_9907412.png,2000.0,2000.0
+5362487,sulfur,"Microthiol, Thiodex",Varía,S,0,0,./images/CID_5362487.png,2000.0,2000.0
+19395,sulfotepp,Bladafum,C8H20O5P2S2,CCOP(=S)(OCC)OP(=S)(OCC)OCC,-5.4,-5.3,./images/CID_19395.png,10.0,65.0
+91773,tebufenozide,Confirm,C22H28N2O2,CCC1=CC=C(C=C1)C(=O)NN(C(=O)C2=CC(=CC(=C2)C)C)C(C)(C)C,-5.8,-6.9,./images/CID_91773.png,5000.0,5000.0
+93516,tebupirimfos,Aztec,C13H23N2O3PS,CCOP(=S)(OC1=CN=C(N=C1)C(C)(C)C)OC(C)C,-5.6,-5.7,./images/CID_93516.png,132.0,2000.0
+25670,terbufos,Counter,C9H21O2PS3,CCOP(=S)(OCC)SCSC(C)(C)C,-4.8,-4.8,./images/CID_25670.png,31.5,1162.5
+25670,terbufos,Counter,C9H21O2PS3,CCOP(=S)(OCC)SCSC(C)(C)C,-4.8,-4.8,./images/CID_25670.png,31.5,1162.5
+5284462,tetrachlorvinphos,"Rabon, Gardona",C10H9Cl4O4P,COP(=O)(OC)O/C(=C\Cl)/C1=CC(=C(C=C1Cl)Cl)Cl,-5.9,-5.7,./images/CID_5284462.png,4500.0,2500.0
+13745,tetrachlorvinphos,"Rabon, Gardona",C10H9Cl4O4P,COP(=O)(OC)O/C(=C\Cl)/C1=CC(=C(C=C1Cl)Cl)Cl,-6.0,-5.7,./images/CID_13745.png,4500.0,2500.0
+5842000,tetrachlorvinphos,"Rabon, Gardona",C10H9Cl4O4P,COP(=O)(OC)O/C(=C\Cl)/C1=CC(=C(C=C1Cl)Cl)Cl,-5.8,-6.3,./images/CID_5842000.png,4500.0,2500.0
+83975,tetramethrin,Duracid,C19H25NO4,CC(=CC1C(C1(C)C)C(=O)OCN2C(=O)C3=C(C2=O)CCCC3)C,-8.7,-7.5,./images/CID_83975.png,5000.0,
+5821911,thiamethoxam,"actara, Cruiser, others",C8H10ClN5O3S,CN\1COCN(/C1=N/[N+](=O)[O-])CC2=CN=C(S2)Cl,-5.6,-5.9,./images/CID_5821911.png,5000.0,2000.0
+107646,thiamethoxam,"actara, Cruiser, others",C8H10ClN5O3S,CN\1COCN(/C1=N/[N+](=O)[O-])CC2=CN=C(S2)Cl,-5.6,-5.8,./images/CID_107646.png,5000.0,2000.0
+5485188,thiamethoxam,"actara, Cruiser, others",C8H10ClN5O3S,CN\1COCN(/C1=N/[N+](=O)[O-])CC2=CN=C(S2)Cl,-6.1,-6.6,./images/CID_5485188.png,5000.0,2000.0
+9601227,thiodicarb,Larvin,C10H18N4O4S3,C/C(=N\OC(=O)N(SN(C(=O)O/N=C(/SC)\C)C)C)/SC,-5.2,-6.0,./images/CID_9601227.png,166.0,2000.0
+62155,thiodicarb,Larvin,C10H18N4O4S3,C/C(=N\OC(=O)N(SN(C(=O)O/N=C(/SC)\C)C)C)/SC,-5.4,-6.1,./images/CID_62155.png,166.0,2000.0
+6386307,thiodicarb,Larvin,C10H18N4O4S3,C/C(=N\OC(=O)N(SN(C(=O)O/N=C(/SC)\C)C)C)/SC,-5.6,-5.9,./images/CID_6386307.png,166.0,2000.0
+6165177,thiodicarb,Larvin,C10H18N4O4S3,C/C(=N\OC(=O)N(SN(C(=O)O/N=C(/SC)\C)C)C)/SC,-5.6,-5.9,./images/CID_6165177.png,166.0,2000.0
+9809914,tralomethrin,(many),C22H19Br4NO3,CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C(C(Br)(Br)Br)Br)C,-7.3,-7.0,./images/CID_9809914.png,1250.0,2000.0
+48132,tralomethrin,(many),C22H19Br4NO3,CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C(C(Br)(Br)Br)Br)C,-6.4,-4.4,./images/CID_48132.png,1250.0,2000.0
+22883840,tralomethrin,(many),C22H19Br4NO3,CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C(C(Br)(Br)Br)Br)C,-6.3,-5.2,./images/CID_22883840.png,1250.0,2000.0
+5853,trichlorfon,"Dylox, Neguvon",C4H8Cl3O4P,COP(=O)(C(C(Cl)(Cl)Cl)O)OC,-4.8,-5.1,./images/CID_5853.png,250.0,2100.0
+2912,zeta-cypermethrin,"Fury, Mustang",C22H19Cl2NO3,CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C,-8.8,-8.5,./images/CID_2912.png,2000.0,4000.0
+1988,acetochlor,Harness Plus,C14H20ClNO2,CCC1=CC=CC(=C1N(COCC)C(=O)CCl)C,-5.9,-5.7,./images/CID_1988.png,2953.0,3667.0
+44073,acifluorfen,Blaer,C14H7ClF3NO5,C1=CC(=C(C=C1C(F)(F)F)Cl)OC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O,-8.0,-7.2,./images/CID_44073.png,1540.0,3680.0
+2078,alachlor,Lasso,C14H20ClNO2,CCC1=C(C(=CC=C1)CC)N(COC)C(=O)CCl,-6.0,-5.4,./images/CID_2078.png,1140.0,
+213012,aminopyralid,Milestone,C6H4Cl2N2O2,C1=C(C(=C(N=C1Cl)C(=O)O)Cl)N,-5.8,-5.9,./images/CID_213012.png,5000.0,5000.0
+18752,asulam,Asulox,C8H10N2O4S,COC(=O)NS(=O)(=O)C1=CC=C(C=C1)N,-6.7,-6.6,./images/CID_18752.png,5000.0,2000.0
+2256,atrazine,"AAtrex, others",C8H14ClN5,CCNC1=NC(=NC(=N1)Cl)NC(C)C,-6.1,-6.4,./images/CID_2256.png,1780.0,
+2319,benefin,Balan,C13H16F3N3O4,CCCCN(CC)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],-6.7,-5.7,./images/CID_2319.png,10000.0,
+12932,bensulide,"Betasan, Prefar, Bensumec",C14H24NO4PS3,CC(C)OP(=S)(OC(C)C)SCCNS(=O)(=O)C1=CC=CC=C1,-6.5,-5.3,./images/CID_12932.png,870.5,
+2328,bentazon,Basagran,C10H12N2O3S,CC(C)N1C(=O)C2=CC=CC=C2NS1(=O)=O,-6.7,-6.2,./images/CID_2328.png,2063.0,
+9411,bromacil,"Hyvar-X, Urox",C9H13BrN2O2,CCC(C)N1C(=O)C(=C(NC1=O)C)Br,-5.8,-5.8,./images/CID_9411.png,5200.0,
+15531,bromoxynil,"Buctril, Bronate",C7H3Br2NO,C1=C(C=C(C(=C1Br)O)Br)C#N,-5.9,-5.7,./images/CID_15531.png,260.0,2000.0
+16181,butylate,Sutan,C11H23NOS,CCSC(=O)N(CC(C)C)CC(C)C,-5.1,-5.3,./images/CID_16181.png,4465.5,4640.0
+91762,chlorimuron,Classic,C13H11ClN4O6S,COC1=CC(=NC(=N1)NC(=O)NS(=O)(=O)C2=CC=CC=C2C(=O)O)Cl,-8.7,-7.4,./images/CID_91762.png,4000.0,2000.0
+16115,chloroxuron,Tenoran,C15H15ClN2O2,CN(C)C(=O)NC1=CC=C(C=C1)OC2=CC=C(C=C2)Cl,-7.4,-5.7,./images/CID_16115.png,3700.0,10000.0
+47491,chlorsulfuron,Glean,C12H12ClN5O4S,CC1=NC(=NC(=N1)OC)NC(=O)NS(=O)(=O)C2=CC=CC=C2Cl,-8.4,-7.4,./images/CID_47491.png,3053.0,2000.0
+91745,cinmethylin,"Argold, Cinch",C18H26O2,CC1=CC=CC=C1CO[C@@H]2C[C@]3(CC[C@@]2(O3)C)C(C)C,-7.5,-7.3,./images/CID_91745.png,3610.0,2921.0
+188653,cinmethylin,"Argold, Cinch",C18H26O2,CC1=CC=CC=C1CO[C@@H]2C[C@]3(CC[C@@]2(O3)C)C(C)C,-6.9,-6.5,./images/CID_188653.png,3610.0,2921.0
+25137678,cinmethylin,"Argold, Cinch",C18H26O2,CC1=CC=CC=C1CO[C@@H]2C[C@]3(CC[C@@]2(O3)C)C(C)C,-7.3,-7.1,./images/CID_25137678.png,3610.0,2921.0
+76318728,cinmethylin,"Argold, Cinch",C18H26O2,CC1=CC=CC=C1CO[C@@H]2C[C@]3(CC[C@@]2(O3)C)C(C)C,-7.6,-7.2,./images/CID_76318728.png,3610.0,2921.0
+132247025,cinmethylin,"Argold, Cinch",C18H26O2,CC1=CC=CC=C1CO[C@@H]2C[C@]3(CC[C@@]2(O3)C)C(C)C,-7.7,-7.5,./images/CID_132247025.png,3610.0,2921.0
+135491728,clethodim,Select,C17H26ClNO3S,CC/C(=N\OC/C=C/Cl)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.6,-5.7,./images/CID_135491728.png,3610.0,2921.0
+136191021,clethodim,Select,C17H26ClNO3S,CC/C(=N\OC/C=C/Cl)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.8,-5.2,./images/CID_136191021.png,3610.0,2921.0
+135616187,clethodim,Select,C17H26ClNO3S,CC/C(=N\OC/C=C/Cl)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.1,-5.8,./images/CID_135616187.png,3610.0,2921.0
+136469009,clethodim,Select,C17H26ClNO3S,CC/C(=N\OC/C=C/Cl)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.5,-5.5,./images/CID_136469009.png,3610.0,2921.0
+136912649,clethodim,Select,C17H26ClNO3S,CC/C(=N\OC/C=C/Cl)/C1=C(CC(CC1=O)CC(C)SCC)O,-5.6,-5.4,./images/CID_136912649.png,3610.0,2921.0
+15553,clopyralid,"Reclaim, Transline",C6H3Cl2NO2,C1=CC(=NC(=C1Cl)C(=O)O)Cl,-5.5,-5.4,./images/CID_15553.png,5000.0,2000.0
+86453,cloransulam-methyl,First Rate,C15H13ClFN5O5S,CCOC1=NC(=CC2=NC(=NN21)S(=O)(=O)NC3=C(C=CC=C3Cl)C(=O)OC)F,-7.8,-6.9,./images/CID_86453.png,2000.0,
+24462,copper sulfate,Basicop,CuO4S,[O-]S(=O)(=O)[O-].[Cu+2],0,0,./images/CID_24462.png,472.0,
+24462,copper sulfate,Basicop,CuO4S,[O-]S(=O)(=O)[O-].[Cu+2],0,0,./images/CID_24462.png,472.0,
+30773,cyanazine,Bladex,C9H13ClN6,CCNC1=NC(=NC(=N1)Cl)NC(C)(C)C#N,-6.4,-6.9,./images/CID_30773.png,288.0,2000.0
+14337,cycloate,Ro-Neet,C11H21NOS,CCN(C1CCCCC1)C(=O)SCC,-5.5,-5.7,./images/CID_14337.png,3050.0,
+3030,dicamba,Banvel,C8H6Cl2O3,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,-6.1,-5.4,./images/CID_3030.png,1707.0,2000.0
+3031,dichlobenil,Casoron,C7H3Cl2N,C1=CC(=C(C(=C1)Cl)C#N)Cl,-6.0,-5.3,./images/CID_3031.png,3160.0,1350.0
+39985,diclofop-methyl,Hoelon,C16H14Cl2O4,CC(C(=O)OC)OC1=CC=C(C=C1)OC2=C(C=C(C=C2)Cl)Cl,-7.0,-6.4,./images/CID_39985.png,512.0,5000.0
+38090,diethatyl ethyl,Antor,C14H18ClNO3,CCC1=C(C(=CC=C1)CC)N(CC(=O)O)C(=O)CCl,-6.3,-5.4,./images/CID_38090.png,2300.0,
+91744,dimethenamid,Frontier,C12H18ClNO2S,CC1=CSC(=C1N(C(C)COC)C(=O)CCl)C,-5.1,-4.8,./images/CID_91744.png,2400.0,2000.0
+41385,dimethipin,Harvade,C6H10O4S2,CC1=C(S(=O)(=O)CCS1(=O)=O)C,-5.4,-5.3,./images/CID_41385.png,1180.0,8000.0
+34468,dinitramine,Cobex,C11H13F3N4O4,CCN(CC)C1=C(C=C(C(=C1[N+](=O)[O-])N)C(F)(F)F)[N+](=O)[O-],-6.0,-5.6,./images/CID_34468.png,300.0,6800.0
+6795,diquat,"Diquat, Reglone",C12H12N2+2,C1C[N+]2=CC=CC=C2C3=CC=CC=[N+]31,-6.5,-6.4,./images/CID_6795.png,225.0,400.0
+8947,disodium methanearsonate,"DSMA, Ansar, Dconate",CH3AsNa2O3,C[As](=O)([O-])[O-].[Na+].[Na+],0,0,./images/CID_8947.png,1926.0,3677.0
+91757,dithiopyr,Dimension,C15H16F5NO2S2,CC(C)CC1=C(C(=NC(=C1C(=O)SC)C(F)(F)F)C(F)F)C(=O)SC,-4.9,-5.4,./images/CID_91757.png,5000.0,5000.0
+3120,diuron,Karmex,C9H10Cl2N2O,CN(C)C(=O)NC1=CC(=C(C=C1)Cl)Cl,-6.3,-5.7,./images/CID_3120.png,3400.0,2000.0
+3225,endothall,"Aquthol, Endothal, Hydrothol",C8H10O5,C1CC2C(C(C1O2)C(=O)O)C(=O)O,-6.0,-5.7,./images/CID_3225.png,51.0,
+12968,EPTC,"Eptam, Eradicane",C9H19NOS,CCCN(CCC)C(=O)SCC,-4.8,-5.0,./images/CID_12968.png,1630.0,
+41381,ethalfluralin,Sonalan,C13H14F3N3O4,CCN(CC(=C)C)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],-5.8,-4.7,./images/CID_41381.png,10000.0,
+27982,ethephon,"Prep, Super Boll",C2H6ClO3P,C(CCl)P(=O)(O)O,-3.8,-3.8,./images/CID_27982.png,4229.0,
+33360,ethofumesate,Prograss,C13H18O5S,CCOC1C(C2=C(O1)C=CC(=C2)OS(=O)(=O)C)(C)C,-5.6,-5.8,./images/CID_33360.png,6400.0,1400.0
+71245,etofenprox,Primo,C25H28O3,CCOC1=CC=C(C=C1)C(C)(C)COCC2=CC(=CC=C2)OC3=CC=CC=C3,-8.4,-7.2,./images/CID_71245.png,42880.0,2140.0
+6805,fenac,Fenatrol,C8H5Cl3O2,C1=CC(=C(C(=C1Cl)CC(=O)O)Cl)Cl,-6.2,-5.9,./images/CID_6805.png,1780.0,3160.0
+47938,fenoxaprop-ethyl,"Acclaim, Bugle, Excel",C18H16ClNO5,CCOC(=O)C(C)OC1=CC=C(C=C1)OC2=NC3=C(O2)C=C(C=C3)Cl,-8.1,-7.1,./images/CID_47938.png,2565.0,2000.0
+50897,fluazifop-butyl,Fusilade,C19H20F3NO4,CCCCOC(=O)C(C)OC1=CC=C(C=C1)OC2=NC=C(C=C2)C(F)(F)F,-7.7,-6.7,./images/CID_50897.png,2712.0,2420.0
+16562,fluometuron,Cotoran,C10H11F3N2O,CN(C)C(=O)NC1=CC=CC(=C1)C(F)(F)F,-7.4,-7.0,./images/CID_16562.png,8900.0,10000.0
+43079,fluridone,Sonar,C19H14F3NO,CN1C=C(C(=O)C(=C1)C2=CC(=CC=C2)C(F)(F)F)C3=CC=CC=C3,-9.2,-7.7,./images/CID_43079.png,10000.0,
+51556,fomesafen,Reflex,C15H10ClF3N2O6S,CS(=O)(=O)NC(=O)C1=C(C=CC(=C1)OC2=C(C=C(C=C2)C(F)(F)F)Cl)[N+](=O)[O-],-8.4,-7.1,./images/CID_51556.png,1858.0,
+4794,glufosinate,"Finally, Ignite",C5H12NO4P,CP(=O)(CCC(C(=O)O)N)O,-5.1,-4.9,./images/CID_4794.png,2000.0,1620.0
+3496,glyphosate,"Rodeo, Roundup",C3H8NO5P,C(C(=O)O)NCP(=O)(O)O,-4.7,-4.7,./images/CID_3496.png,5000.0,5000.0
+86414,halosulfuron,"Manage, Permit",C12H13ClN6O7S,CN1C(=C(C(=N1)Cl)C(=O)O)S(=O)(=O)NC(=O)NC2=NC(=CC(=N2)OC)OC,-8.4,-7.6,./images/CID_86414.png,1287.0,5000.0
+50896,haloxyfop-methyl,Verdict,C16H13ClF3NO4,CC(C(=O)OC)OC1=CC=C(C=C1)OC2=C(C=C(C=N2)C(F)(F)F)Cl,-7.1,-5.8,./images/CID_50896.png,2179.0,3536.0
+39965,hexazinone,Velpar,C12H20N4O2,CN1C(=NC(=O)N(C1=O)C2CCCCC2)N(C)C,-5.2,-5.4,./images/CID_39965.png,1690.0,5278.0
+84098,isoxaflutole,Balance,C15H12F3NO4S,CS(=O)(=O)C1=C(C=CC(=C1)C(F)(F)F)C(=O)C2=C(ON=C2)C3CC3,-7.4,-7.5,./images/CID_84098.png,5000.0,2000.0
+9502,linuron,Lorox,C9H10Cl2N2O,CC(=O)NC1=CC=CC=C1N=C(N)NC(C)(C)C,-6.4,-6.4,./images/CID_9502.png,4000.0,
+7204,MCPA,(many),C9H9ClO3,CC1=C(C=CC(=C1)Cl)OCC(=O)O,-6.2,-6.0,./images/CID_7204.png,1160.0,4000.0
+7153,mecoprop,MCPP,C10H11ClO3,CC1=C(C=CC(=C1)Cl)OC(C)C(=O)O,-4.8,-6.1,./images/CID_7153.png,1166.0,4000.0
+40896,mefluidide,Embark,C11H13F3N2O3S,CC1=CC(=C(C=C1NC(=O)C)NS(=O)(=O)C(F)(F)F)C,-7.5,-7.3,./images/CID_40896.png,4000.0,4000.0
+62781,mepiquat chloride,Pix,C7H16ClN,C[N+]1(CCCCC1)C.[Cl-],0,0,./images/CID_62781.png,464.0,
+4690,methazole,Probe,C9H6Cl2N2O3,CN1C(=O)N(OC1=O)C2=CC(=C(C=C2)Cl)Cl,-7.1,-6.6,./images/CID_4690.png,2501.0,12500.0
+4169,metolachlor,Dual,C15H22ClNO2,CCC1=CC=CC(=C1N(C(C)COC)C(=O)CCl)C,-5.6,-4.7,./images/CID_4169.png,2780.0,10000.0
+30479,metribuzin,"Contrast, Lexone, Sencor",C8H14N4OS,CC(C)(C)C1=NN=C(N(C1=O)N)SC,-5.7,-5.4,./images/CID_30479.png,1700.0,20000.0
+27189,napropamide,Devinol,C17H21NO2,CCN(CC)C(=O)C(C)OC1=CC=CC2=CC=CC=C21,-7.5,-5.2,./images/CID_27189.png,500.0,
+8594,naptalam,Alanap,C18H13NO3,C1=CC=C2C(=C1)C=CC=C2NC(=O)C3=CC=CC=C3C(=O)O,-8.4,-7.2,./images/CID_8594.png,8200.0,
+73281,nicosulfuron,Accent,C15H18N6O6S,CN(C)C(=O)C1=C(N=CC=C1)S(=O)(=O)NC(=O)NC2=NC(=CC(=N2)OC)OC,-7.2,-6.9,./images/CID_73281.png,5000.0,2000.0
+33775,norflurazon,"Solicam, Zorial",C12H9ClF3N3O,CNC1=C(C(=O)N(N=C1)C2=CC=CC(=C2)C(F)(F)F)Cl,-7.3,-6.9,./images/CID_33775.png,8000.0,20000.0
+29393,oryzalin,Surflan,C12H18N4O6S,CCCN(CCC)C1=C(C=C(C=C1[N+](=O)[O-])S(=O)(=O)N)[N+](=O)[O-],-5.4,-4.4,./images/CID_29393.png,10000.0,
+29732,oxadiazon,Ronstar,C15H18Cl2N2O3,CC(C)OC1=C(C=C(C(=C1)N2C(=O)OC(=N2)C(C)(C)C)Cl)Cl,-7.7,-6.5,./images/CID_29732.png,5000.0,2000.0
+39327,oxyfluorfen,Goal,C15H11ClF3NO4,CCOC1=C(C=CC(=C1)OC2=C(C=C(C=C2)C(F)(F)F)Cl)[N+](=O)[O-],-7.8,-7.3,./images/CID_39327.png,5000.0,10000.0
+15939,paraquat,"Gramoxone, Cyclone",C12H14N2+2,C[N+]1=CC=C(C=C1)C2=CC=[N+](C=C2)C,-5.7,-6.4,./images/CID_15939.png,150.0,
+38479,pendimethalin,Prowl,C13H19N3O4,CCC(CC)NC1=C(C=C(C(=C1[N+](=O)[O-])C)C)[N+](=O)[O-],-6.7,-6.6,./images/CID_38479.png,3956.0,2200.0
+15965,picloram,"Tordon, Grazon",C6H3Cl3N2O2,C1(=C(C(=NC(=C1Cl)Cl)C(=O)O)Cl)N,-6.1,-5.9,./images/CID_15965.png,8200.0,4000.0
+91774,primisulfuron,Beacon,C14H10F4N4O7S,C1=CC=C(C(=C1)C(=O)O)S(=O)(=O)NC(=O)NC2=NC(=CC(=N2)OC(F)F)OC(F)F,-9.1,-7.8,./images/CID_91774.png,5050.0,2010.0
+34469,prodiamine,Barricade,C13H17F3N4O4,CCCN(CCC)C1=C(C=C(C(=C1[N+](=O)[O-])N)C(F)(F)F)[N+](=O)[O-],-6.3,-6.5,./images/CID_34469.png,5000.0,2000.0
+33500,profluralin,Tolban,C14H16F3N3O4,CCCN(CC1CC1)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],-6.8,-5.6,./images/CID_33500.png,1808.0,10000.0
+4928,prometon,Pramitol,C10H19N5O,CC(C)NC1=NC(=NC(=N1)OC)NC(C)C,-6.6,-6.8,./images/CID_4928.png,2980.0,2000.0
+4929,prometryn,Caprol,C10H19N5S,CC(C)NC1=NC(=NC(=N1)SC)NC(C)C,-6.2,-6.6,./images/CID_4929.png,5235.0,3100.0
+32154,pronamide,Kerb,C12H11Cl2NO,CC(C)(C#C)NC(=O)C1=CC(=CC(=C1)Cl)Cl,-7.2,-7.3,./images/CID_32154.png,8350.0,3160.0
+4931,propachlor,Ramrod,C11H14ClNO,CC(C)N(C1=CC=CC=C1)C(=O)CCl,-5.5,-5.8,./images/CID_4931.png,1100.0,
+91751,prosulfuron,Peak,C15H16F3N5O4S,CC1=NC(=NC(=N1)OC)NC(=O)NS(=O)(=O)C2=CC=CC=C2CCC(F)(F)F,-8.7,-7.3,./images/CID_91751.png,4360.0,2020.0
+15546,pyrazon,Pyramin,C10H8ClN3O,C1=CC=C(C=C1)N2C(=O)C(=C(C=N2)N)Cl,-6.7,-6.6,./images/CID_15546.png,3030.0,2500.0
+41463,pyridate,"Tough, Lentagran",C19H23ClN2O2S,CCCCCCCCSC(=O)OC1=CC(=NN=C1C2=CC=CC=C2)Cl,-7.2,-7.4,./images/CID_41463.png,2000.0,3400.0
+23682187,pyrithiobac-sodium,Staple,C13H10ClN2NaO4S,COC1=CC(=NC(=N1)SC2=C(C(=CC=C2)Cl)C(=O)[O-])OC.[Na+],0,0,./images/CID_23682187.png,4000.0,2000.0
+91739,quinclorac,Paramount,C10H5Cl2NO2,C1=CC(=C(C2=NC=C(C=C21)Cl)C(=O)O)Cl,-6.9,-6.4,./images/CID_91739.png,4120.0,2000.0
+178795,quizalofop,Assure,C17H13ClN2O4,CC(C(=O)O)OC1=CC=C(C=C1)OC2=CN=C3C=C(C=CC3=N2)Cl,-7.7,-7.0,./images/CID_178795.png,1210.0,
+135491830,sethoxydim,Poast,C17H29NO3S,CCC/C(=N\OCC)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.0,-5.3,./images/CID_135491830.png,2900.5,
+135503327,sethoxydim,Poast,C17H29NO3S,CCC/C(=N\OCC)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.0,-5.2,./images/CID_135503327.png,2900.5,
+135846942,sethoxydim,Poast,C17H29NO3S,CCC/C(=N\OCC)/C1=C(CC(CC1=O)CC(C)SCC)O,-6.5,-5.8,./images/CID_135846942.png,2900.5,
+136737979,sethoxydim,Poast,C17H29NO3S,CCC/C(=N\OCC)/C1=C(CC(CC1=O)CC(C)SCC)O,-5.6,-6.6,./images/CID_136737979.png,2900.5,
+16116,siduron,Tupersan,C14H20N2O,CC1CCCCC1NC(=O)NC2=CC=CC=C2,-6.9,-6.4,./images/CID_16116.png,7500.0,
+5216,simazine,Princep,C7H12ClN5,CCNC1=NC(=NC(=N1)Cl)NCC,-5.8,-6.0,./images/CID_5216.png,5000.0,3100.0
+516902,sodium chlorate,Defol,ClNaO3,[O-]Cl(=O)=O.[Na+],0,0,./images/CID_516902.png,4950.0,500.0
+24838536,sulfosate,Touchdown,C6H16NO5PS,C[S+](C)C.C(C(=O)O)NCP(=O)(O)[O-],0,0,./images/CID_24838536.png,750.0,200.0
+76965329,sulfosate,Touchdown,C6H16NO5PS,C[S+](C)C.C(C(=O)O)NCP(=O)(O)[O-],0,0,./images/CID_76965329.png,750.0,200.0
+21889728,sulfosate,Touchdown,C6H16NO5PS,C[S+](C)C.C(C(=O)O)NCP(=O)(O)[O-],0,0,./images/CID_21889728.png,750.0,200.0
+86426,sulfosulfuron,Maverick,C16H18N6O7S2,CCS(=O)(=O)C1=C(N2C=CC=CC2=N1)S(=O)(=O)NC(=O)NC3=NC(=CC(=N3)OC)OC,-6.1,-7.0,./images/CID_86426.png,5000.0,5000.0
+5383,tebuthiuron,"Graslan, Spike",C9H16N4OS,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,-6.6,-6.1,./images/CID_5383.png,644.0,
+22188,terbacil,Sinbar,C9H13ClN2O2,CC1=C(C(=O)N(C(=O)N1)C(C)(C)C)Cl,-6.5,-6.2,./images/CID_22188.png,6250.0,
+73674,thifensulfuron-methyl,Pinnacle,C12H13N5O6S2,CC1=NC(=NC(=N1)OC)NC(=O)NS(=O)(=O)C2=C(SC=C2)C(=O)OC,-8.0,-6.7,./images/CID_73674.png,5000.0,
+5543,triallate,"Far-go, Avadex",C10H16ClNOS,CC(C)OC(=O)NCC1=CC=CC=C1C(=O)NO,-5.0,-5.2,./images/CID_5543.png,395.0,2000.0
+73282,triasulfuron,Amber,C12H16ClN5O6S,CC(=O)N(CC1=CC=C(C=C1)S(N)(=O)=O)C1=NN=C(N1)N,-8.1,-7.2,./images/CID_73282.png,5000.0,2000.0
+153909,tribenuron methyl,Express,C15H17N5O6S,CC(=O)N(C)C1=NC(=NC(=N1)C(C)(C)C)N(C)C=O,-8.1,-7.3,./images/CID_153909.png,5000.0,2000.0
+41428,triclopyr,"Remedy, Turflon, others",C8H6Cl3O3,CC(=O)OC1=CC(=CC(=C1)Cl)Cl,-6.0,-5.7,./images/CID_41428.png,2140.0,
+73669,tridiphane,Tandem,C18H16Cl2N2O,CC(=O)N1CC2=CC=CC=C2C1=CC1=CC=CC=C1Cl,-6.6,-6.3,./images/CID_73669.png,1743.0,3536.0
+16003,vernolate,Vernam,C13H22NO2S,CC(C)=CCC1=CC=CC=C1OC(=O)N(C)C,-5.0,-5.4,./images/CID_16003.png,1850.0,10000.0
+9570071,aldicarb,Tmik,C11H15N3O2S,CC(C)(N)OC(=O)NC1=CC=CC=C1,-5.1,-5.2,./images/CID_9570071.png,1.0,20.0
+9570071,aldicarb,Tmik,C11H15N3O2S,CC(C)(N)OC(=O)NC1=CC=CC=C1,-5.1,-5.2,./images/CID_9570071.png,1.0,20.0
+3034285,azoxystrobin,"Abound, Heritage, Quadris",C22H17N3O5,CC(C)(C)OC(=O)NC1=CC(=C(C=C1)N1C=NC2=CC=CC=C12)C1=CC=CC=C1,-8.5,-7.3,./images/CID_3034285.png,500.0,4000.0
+8606,captan,"Captan, Orthocide",C9H8Cl3N3O2S2,CC(=O)NC1=CC=CC=C1SC(=S)N(C)C(=O)O,-5.2,-5.3,./images/CID_8606.png,9000.0,
+21307,carboxin,Vitavax,C12H13NO2S,CC1=CC=CC=C1C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O,-6.3,-5.9,./images/CID_21307.png,3820.0,8000.0
+17581,chloroneb,"Trraneb, Nu-Flow D",C8H8Cl2O2,COC1=CC(=C(C=C1Cl)OC)Cl,-5.4,-5.4,./images/CID_17581.png,5000.0,5000.0
+24462,copper sulfate,"TOP CCOP, others",CuO4S,[O-]S(=O)(=O)[O-].[Cu+2],0,0,./images/CID_24462.png,472.0,
+24462,copper sulfate,"TOP CCOP, others",CuO4S,[O-]S(=O)(=O)[O-].[Cu+2],0,0,./images/CID_24462.png,472.0,
+5364079,cymoxanil,Curzate,C7H10N4O3,CCNC(=O)NC(=O)/C(=N/OC)/C#N,-6.0,-6.2,./images/CID_5364079.png,1100.0,3000.0
+5361250,cymoxanil,Curzate,C7H10N4O3,CCNC(=O)NC(=O)/C(=N/OC)/C#N,-6.2,-6.1,./images/CID_5361250.png,1100.0,3000.0
+42614,cymoxanil,Curzate,C7H10N4O3,CCNC(=O)NC(=O)/C(=N/OC)/C#N,-6.0,-6.4,./images/CID_42614.png,1100.0,3000.0
+86173,difenoconazole,Dividend,C19H17Cl2N3O3,CC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)OC4=CC=C(C=C4)Cl)Cl,-7.6,-6.2,./images/CID_86173.png,1453.0,2010.0
+5889665,dimethomorph,Acrobat,C21H22ClNO4,COC1=C(C=C(C=C1)/C(=C/C(=O)N2CCOCC2)/C3=CC=C(C=C3)Cl)OC,-4.8,-4.8,./images/CID_5889665.png,3900.0,2000.0
+5463781,dimethomorph,Acrobat,C21H22ClNO4,COC1=C(C=C(C=C1)/C(=C/C(=O)N2CCOCC2)/C3=CC=C(C=C3)Cl)OC,-5.9,-5.6,./images/CID_5463781.png,3900.0,2000.0
+86298,dimethomorph,Acrobat,C21H22ClNO4,COC1=C(C=C(C=C1)/C(=C/C(=O)N2CCOCC2)/C3=CC=C(C=C3)Cl)OC,-5.2,-4.9,./images/CID_86298.png,3900.0,2000.0
+61899,dodemorph,Milban,C18H35NO,CC1CN(CC(O1)C)C2CCCCCCCCCCC2,-5.3,-4.3,./images/CID_61899.png,4180.0,4000.0
+17110,dodine,Cyprex,C15H33N3O2,CCCCCCCCCCCCN=C(N)N.CC(=O)O,0,0,./images/CID_17110.png,1000.0,1500.0
+31070,fenamiphos,Nemacur,C13H22NO3PS,CCOP(=O)(NC(C)C)OC1=CC(=C(C=C1)SC)C,-5.9,-5.8,./images/CID_31070.png,3.0,200.0
+43226,fenarimol,Rubigan,C17H12Cl2N2O,C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)(C3=CN=CN=C3)O)Cl,-5.2,-5.4,./images/CID_43226.png,2500.0,4500.0
+86138,fenbuconazole,Indar,C19H17ClN4,C1=CC=C(C=C1)C(CCC2=CC=C(C=C2)Cl)(CN3C=NC=N3)C#N,-6.6,-8.2,./images/CID_86138.png,2000.0,5000.0
+86398,fludioxonil,"Maxim, Medallion",C12H6F2N2O2,C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,-8.1,-8.3,./images/CID_86398.png,5000.0,2000.0
+47898,flutolanil,"Moncut, Prostar",C17H16F3NO2,CC(C)OC1=CC=CC(=C1)NC(=O)C2=CC=CC=C2C(F)(F)F,-7.8,-7.4,./images/CID_47898.png,10000.0,5000.0
+6328269,fosetyl-AL,Aliette,C6H15AlO9P3+3,CCOP(=O)=O.CCOP(=O)=O.CCOP(=O)=O.[Al+3],0,0,./images/CID_6328269.png,5800.0,2000.0
+37175,imazalil,"Fecundal, Flo-Pro, Nu-Zone",C14H14Cl2N2O,C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,-6.6,-6.2,./images/CID_37175.png,285.0,4540.0
+37517,iprodione,"Chipco 26019, Rovral",C13H13Cl2N3O3,CC(C)NC(=O)N1CC(=O)N(C1=O)C2=CC(=CC(=C2)Cl)Cl,-7.4,-6.1,./images/CID_37517.png,4400.0,2000.0
+3034368,mancozeb,"Manzate 200, Fore, Penncozeb",C8H12MnN4S8Zn,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],0,0,./images/CID_3034368.png,11200.0,15000.0
+13307026,mancozeb,"Manzate 200, Fore, Penncozeb",C8H12MnN4S8Zn,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],0,0,./images/CID_13307026.png,11200.0,15000.0
+76957227,mancozeb,"Manzate 200, Fore, Penncozeb",C8H12MnN4S8Zn,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],0,0,./images/CID_76957227.png,11200.0,15000.0
+3000605,mancozeb,"Manzate 200, Fore, Penncozeb",C8H12MnN4S8Zn,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],-3.9,-3.9,./images/CID_3000605.png,11200.0,15000.0
+4228010,mancozeb,"Manzate 200, Fore, Penncozeb",C8H12MnN4S8Zn,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],-4.1,-4.1,./images/CID_4228010.png,11200.0,15000.0
+3032581,maneb,"Maneb 80, Manex",C4H6MnN2S4,C(CNC(=S)[S-])NC(=S)[S-].[Mn+2],0,0,./images/CID_3032581.png,7990.0,5000.0
+11150163,mefenoxam,Subdue Maxx,C16H21N5O3,CC(C)(C1=NC(=C(N1)C(=O)N)C(=O)N)N,-4.4,-4.5,./images/CID_11150163.png,2084.0,2020.0
+42586,metalaxyl,"Ridomil, Subdue",C15H21NO4,CC1=C(C(=CC=C1)C)N([C@H](C)C(=O)OC)C(=O)COC,-5.5,-5.1,./images/CID_42586.png,669.0,3100.0
+5366415,metam-sodium,Vapam,C2H4NNaS2,CNC(=S)[S-].[Na+],0,0,./images/CID_5366415.png,1891.0,3074.0
+158076,paclobutrazol,Protect,C15H20ClN3O,CC(C)(C)[C@H]([C@@H](CC1=CC=C(C=C1)Cl)N2C=NC=N2)O,-6.2,-6.1,./images/CID_158076.png,5346.0,1000.0
+73671,paclobutrazol,Protect,C15H20ClN3O,CC(C)(C)[C@H]([C@@H](CC1=CC=C(C=C1)Cl)N2C=NC=N2)O,-5.8,-6.1,./images/CID_73671.png,5346.0,1000.0
+616765,paclobutrazol,Protect,C15H20ClN3O,CC(C)(C)[C@H]([C@@H](CC1=CC=C(C=C1)Cl)N2C=NC=N2)O,-5.4,-6.5,./images/CID_616765.png,5346.0,1000.0
+6540498,paclobutrazol,Protect,C15H20ClN3O,CC(C)(C)[C@H]([C@@H](CC1=CC=C(C=C1)Cl)N2C=NC=N2)O,-5.8,-5.8,./images/CID_6540498.png,5346.0,1000.0
+53297383,paclobutrazol,Protect,C15H20ClN3O,CC(C)(C)[C@H]([C@@H](CC1=CC=C(C=C1)Cl)N2C=NC=N2)O,-5.8,-6.2,./images/CID_53297383.png,5346.0,1000.0
+18996,piperalin,Pipron,C16H21Cl2NO2,CC1CCCCN1CCCOC(=O)C2=CC(=C(C=C2)Cl)Cl,-7.8,-7.1,./images/CID_18996.png,2500.0,
+32490,propamocarb,"Banol, Previcur-N",C9H20N2O2,CCCOC(=O)NCCCN(C)C,-4.9,-5.0,./images/CID_32490.png,43500.0,3000.0
+43234,propiconazole,"Tilt, Alamo, others",C15H17Cl2N3O2,CCCC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)Cl)Cl,-6.9,-7.0,./images/CID_43234.png,1517.0,4000.0
+19648,streptomycin sulfate,Agri-strep,C42H84N14O36S3,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O,0,0,./images/CID_19648.png,9000.0,
+6419957,streptomycin sulfate,Agri-strep,C42H84N14O36S3,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O,0,0,./images/CID_6419957.png,9000.0,
+44134949,streptomycin sulfate,Agri-strep,C42H84N14O36S3,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O,0,0,./images/CID_44134949.png,9000.0,
+53384391,streptomycin sulfate,Agri-strep,C42H84N14O36S3,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O,0,0,./images/CID_53384391.png,9000.0,
+91664033,streptomycin sulfate,Agri-strep,C42H84N14O36S3,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O,0,0,./images/CID_91664033.png,9000.0,
+86102,tebuconazole,"Elite, Folicur",C16H22ClN3O,CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,-6.2,-6.2,./images/CID_86102.png,3738.0,2011.0
+25670,terbufos,Counter 29-34,C9H21O2PS3,CCOP(=S)(OCC)SCSC(C)(C)C,-4.8,-4.8,./images/CID_25670.png,1162.5,
+25670,terbufos,Counter 29-34,C9H21O2PS3,CCOP(=S)(OCC)SCSC(C)(C)C,-4.8,-4.8,./images/CID_25670.png,1162.5,
+3032791,thiophanate-methyl,"Fungo, Topsin M, Domain",C12H14N4O4S2,COC(=O)NC(=S)NC1=CC=CC=C1NC(=S)NC(=O)OC,-6.8,-7.6,./images/CID_3032791.png,7500.0,
+5430,thiabendazole,Mertect 340-F,C10H7N3S,C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3,-6.3,-6.6,./images/CID_5430.png,3100.0,
+5455,thiram,Thiram,C6H12N2S4,CN(C)C(=S)SSC(=S)N(C)C,-3.7,-4.3,./images/CID_5455.png,1000.0,5000.0
+41368,triadimenol,Baytan 30,C14H18ClN3O2,CC(C)(C)C(C(N1C=NC=N1)OC2=CC=C(C=C2)Cl)O,-6.5,-7.1,./images/CID_41368.png,700.0,5000.0
+91699,triflumizole,Terraguard,C15H15ClF3N3O,CCCOCC(=NC1=C(C=C(C=C1)Cl)C(F)(F)F)N2C=CN=C2,-6.8,-7.4,./images/CID_91699.png,1057.0,5000.0
+33565,triforine,Funginex,C10H14Cl6N4O2,C1CN(CCN1C(C(Cl)(Cl)Cl)NC=O)C(C(Cl)(Cl)Cl)NC=O,-4.8,-2.7,./images/CID_33565.png,16000.0,10000.0
+8722,ziram,Ziram,C6H12N2S4Zn,CN(C)C(=S)[S-].CN(C)C(=S)[S-].[Zn+2],0,0,./images/CID_8722.png,1400.0,6000.0
