@@ -1,0 +1,7 @@
+numpy
+pandas
+rdkit
+scikit-learn
+Pillow
+matplotlib
+torch>=2.0
