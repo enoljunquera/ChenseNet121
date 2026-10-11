@@ -1,186 +1,96 @@
-# LD50 Prediction with ChenseNet121
+# Corrected structure-grouped LD50 benchmark (October 2026)
 
-This repository provides code and resources for training and evaluating **ChenseNet121**, a flexible deep learning architecture based on DenseNet121 and adapted for **multimodal toxicity prediction**.
+**Status:** supplemental reproducibility material for the revised manuscript. The
+earlier repository-root scripts and the original Zenodo v1 deposit are retained as
+historical material; neither should be used by itself to reproduce the corrected
+10-test results.
 
-The model integrates different molecular representations, including:
+## Why a corrected dataset is supplied
 
-- 2D molecular images
-- 3D molecular descriptors, both as 2×2×2 and 25×25×25 volumes
-- Numerical features derived from SMILES strings and docking affinities
+The archived Zenodo v1 `combined_dataset.csv` contains **289 source records**, including
+lactofen (Code 62276; oral LD50 59,600 mg/kg), whereas the later experimental
+source used in this benchmark contains **288 records**. The later source corrects
+the oral LD50 of propamocarb (Code 32490) from **43,500 to 5,250 mg/kg**.
+We leave the Zenodo archive and the repository's historical `FlatDock_dataset`
+unchanged to preserve provenance.
 
-The goal is to estimate **Acute Oral LD50** values of chemical compounds, supporting the development of in silico approaches that may contribute to reducing animal testing.
+`dataset/combined_dataset.csv` is the corrected **288-record starting table**, not
+the final evaluation cohort. The published source table requires identity and
+modality curation. The audit returns **249 retained records / 199 unique structures**.
+Full InChIKey (RDKit) or canonical isomeric SMILES fallback defines structural
+grouping. Ambiguous identifiers, incompatible labels, and unavailable complete
+modalities are excluded; multiple consistent records per structure are retained
+and assigned to the same side of each partition.
 
-This repository also includes:
+## What is included
 
-- The curated **FlatDock version of the dataset**, including the cleaned compound table and voxel-derived descriptor files.
-- The compound code files corresponding to the **ten predefined train-test splits** used for repeated evaluation.
-- Additional architecture files used for comparison with ChenseNet121.
+- `dataset/combined_dataset.csv`: corrected 288-record source (not Zenodo v1 data).
+- `dataset/test_1_updated.csv` through `test_10_updated.csv`: original code-seeded
+  split lists; effective test membership is expanded by unique structure.
+- `dataset/voxel_features_nutridock_style_synthesized.csv`: 17 FlatDock features
+  for 256 codes (the same table as in the historical repository).
+- `audit/`: the resulting 249 retained records, 39 excluded records, and split
+  composition (computed using the corrected CSV and Zenodo v1 modalities).
+- `trainChenseNet121_full_grouped.py`, `densenet121.py`, `hyperparams.txt`:
+  grouped training / five-fold checkpoint ensembles for ChenseNet121.
+- `run_inception_10test_grouped.py`, `common.py`, `models/inceptionV3.py`:
+  grouped training / five-fold checkpoint ensembles for ChInceptionV3.
+- `baseline_no_docking_grouped.py`: descriptor-only classical baselines.
+- `REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py`: 17-feature FlatDock
+  classical benchmarking; its legacy input tree can be reconstructed locally.
+- `results_archives/`: corrected predictions, metrics, and split audits for CNNs,
+  original classical baselines, and FlatDock variants. Prediction archives were
+  generated during the manuscript revision; model checkpoint weights are not included.
 
----
+## Getting the large input modalities
 
-## Project Structure
+Download the archived `LD50_multimodal_dataset.zip` (Zenodo record 15800696)
+and put it anywhere on disk. In this folder, run:
 
-```text
-├── densenet121.py                         # ChenseNet121 model architecture
-├── trainDensenet121.py                    # 5-fold cross-validation training script
-├── test_csv_densenet.py                   # External CSV-based test evaluation
-├── main.py                                # Data exploration and visualization
-├── prepare_LD50_data.py                   # Loads SMILES, affinities, and 2D images
-├── manage_3Ddescriptors.py                # Loads 3D molecular descriptors
-├── densenet_hyperparams.txt               # Hyperparameters for DenseNet-based models
-├── hyperparams.txt                        # Additional configuration parameters
-├── ChenseNet121_anaconda_environment.yaml # Conda environment file
-├── additional_architectures.zip           # Additional architectures used for comparison
-├── Test_splits/                           # Compound code files for the ten predefined train-test splits
-└── FlatDock_dataset/                      # Curated FlatDock version of the dataset
-    ├── combined_dataset.csv               # Main curated dataset
-    ├── dataset_descriptores_float.txt     # 25×25×25 descriptors, float channels
-    ├── dataset_descriptores_bool.txt      # 25×25×25 descriptors, Boolean channels
-    ├── dataset_descriptores_2x2x2_float.txt # 2×2×2 descriptors, float channels
-    ├── dataset_descriptores_2x2x2_bool.txt  # 2×2×2 descriptors, Boolean channels
-    └── images/                            # 2D molecular images, if included or referenced
+```shell
+python preparar_dataset_local.py "C:\ruta\LD50_multimodal_dataset.zip"
+python -m pip install -r requirements_revision_2026.txt
+python baseline_no_docking_grouped.py --audit-only
 ```
 
----
+The preparation script extracts both full-resolution and smaller voxel descriptor files, together with molecular images
+from the original Zenodo archive; it **does not overwrite the corrected CSV**.
+The audit (no training) should show 249 retained records, 199 unique structures,
+and zero exact-structure overlap in all ten outer tests.
 
-## Dataset
+## Optional training/reproduction
 
-The curated dataset is provided in the `FlatDock_dataset/` folder. This folder contains the FlatDock version of the dataset used in the experiments, including the cleaned compound table, image references, docking-related variables, and voxel-derived descriptor files.
+From the `revised_2026` folder after preparing the modalities:
 
-The `Test_splits/` folder contains the compound code files corresponding to the ten predefined train-test splits used for repeated evaluation.
-
-| File or folder | Description |
-|---|---|
-| `FlatDock_dataset/combined_dataset.csv` | Main curated dataset with compound codes, SMILES, affinities, LD50 values, image paths, and related variables |
-| `FlatDock_dataset/dataset_descriptores_float.txt` | 25×25×25 voxel-derived descriptors for continuous channels |
-| `FlatDock_dataset/dataset_descriptores_bool.txt` | 25×25×25 voxel-derived descriptors for Boolean channels |
-| `FlatDock_dataset/dataset_descriptores_2x2x2_float.txt` | 2×2×2 voxel-derived descriptors for continuous channels |
-| `FlatDock_dataset/dataset_descriptores_2x2x2_bool.txt` | 2×2×2 voxel-derived descriptors for Boolean channels |
-| `FlatDock_dataset/images/` | Folder containing 2D molecular images, if included or referenced by the dataset |
-| `Test_splits/` | Compound code files for the ten predefined train-test splits |
-
----
-
-## Installation
-
-We recommend using Anaconda to set up the environment.
-
-```bash
-conda env create -f ChenseNet121_anaconda_environment.yaml
-conda activate ld50env
+```shell
+python trainChenseNet121_full_grouped.py --audit-only
+python run_inception_10test_grouped.py --audit-only
+# Full model retraining is computationally expensive and optional:
+# python trainChenseNet121_full_grouped.py
+# python run_inception_10test_grouped.py
 ```
 
-Main requirements include:
+FlatDock: reconstruct the canonical test reference files shipped as an archive,
+then audit without retraining:
 
-- Python 3.9+
-- PyTorch
-- RDKit
-- TensorFlow, used only for image preprocessing
-- scikit-learn
-- matplotlib
-- pandas
-- NumPy
-
-Depending on the local configuration, some paths in the scripts may need to be updated to match the folder names used in this repository, especially the dataset path.
-
----
-
-## How to Run
-
-### 1. Training with Cross-Validation
-
-Run 5-fold cross-validation and save the trained models:
-
-```bash
-python trainDensenet121.py
+```shell
+python preparar_flatdock_local.py
+python REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py --root flatdock_local --audit-only
 ```
 
-This script:
+For a complete rerun of the classical FlatDock regressors, pass
+`--with-controls` (this creates new output files under `flatdock_local`).
 
-- Uses the configuration defined in `densenet_hyperparams.txt`
-- Loads the multimodal input data
-- Trains the ChenseNet121 architecture using cross-validation
-- Saves trained models and outputs in the corresponding results folder
+## Evaluation and interpretation
 
----
+Both CNNs use five structure-grouped training/validation folds per test,
+validation-selected checkpoints, and mean ensemble predictions. Regression
+performance is evaluated on **unique structures**: per-structure predictions
+from repeated records are averaged before MSE/MAE calculation. The ten test
+sets overlap, so their error summaries do not represent independent external
+test cohorts. The primary endpoint is continuous acute oral LD50 regression;
+exploratory classification at 2,000 mg/kg is not a separate optimized model.
 
-### 2. Testing on External CSV Files
-
-The testing script evaluates trained models using a CSV file containing a `Code` column with the compound identifiers to be evaluated.
-
-```bash
-python test_csv_densenet.py
-```
-
-The predefined compound code files for the ten train-test splits are provided in the `Test_splits/` folder.
-
-The script outputs a CSV file with the model predictions, typically named:
-
-```text
-predicciones_densenet121_test.csv
-```
-
-Before running the script, check that the model folder and test CSV path match the desired experiment.
-
----
-
-### 3. Data Inspection
-
-To explore SMILES strings, molecular images, docking affinities, and dataset content:
-
-```bash
-python main.py
-```
-
-This script can be used for basic data inspection and visualization.
-
----
-
-## Model Overview
-
-**ChenseNet121** extends DenseNet121 into a multimodal architecture for toxicity prediction. It combines several input branches:
-
-- A 2D convolutional branch for molecular images
-- A 3D convolutional branch for voxelized molecular descriptors
-- A fully connected branch for tabular descriptors
-- A late-fusion stage where the learned representations are concatenated and passed through dense layers
-
-This design allows the model to jointly exploit structural, descriptor-based, and interaction-derived molecular information.
-
----
-
-## Additional Architectures
-
-The file `additional_architectures.zip` contains additional model architectures used for comparison with ChenseNet121.
-
-These architectures were included to evaluate whether the proposed DenseNet-based multimodal approach provides competitive performance compared with other deep learning backbones.
-
----
-
-## Reproducibility
-
-To support reproducibility, this repository provides:
-
-- The curated FlatDock dataset version used in the experiments
-- The ten predefined train-test split code files
-- The main ChenseNet121 training and testing scripts
-- Hyperparameter configuration files
-- The Conda environment file
-
-The predefined test split files should be used when reproducing the repeated evaluation protocol.
-
----
-
-## Reference
-
-If you use this code or data, please cite:
-
-> Junquera, E. et al. (2024). *SAVING MICE: ChenseNet121, a new deep learning architecture for LD50 toxicity estimation.*
-
----
-
-## Notes
-
-This repository is intended for research purposes. The predicted LD50 values should not be interpreted as direct replacements for regulatory toxicological assessment without further validation.
-
-The main objective of this work is to explore deep learning-based toxicity prediction as a complementary in silico strategy to support safer and more ethical chemical risk assessment.
+The original Zenodo v1 dataset has not been silently altered. Any claims in
+older code, tables, or metadata should be interpreted within their historical
+experiment, not as corrected 2026 benchmark results.
