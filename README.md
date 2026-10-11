@@ -1,96 +1,47 @@
-# Corrected structure-grouped LD50 benchmark (October 2026)
+# ChenseNet121: multimodal acute oral LD50 prediction
 
-**Status:** supplemental reproducibility material for the revised manuscript. The
-earlier repository-root scripts and the original Zenodo v1 deposit are retained as
-historical material; neither should be used by itself to reproduce the corrected
-10-test results.
+This repository contains research implementations and molecular-data resources
+for continuous acute oral LD50 estimation with multimodal CNN architectures.
 
-## Why a corrected dataset is supplied
+## Revised and audited benchmark (October 2026)
 
-The archived Zenodo v1 `combined_dataset.csv` contains **289 source records**, including
-lactofen (Code 62276; oral LD50 59,600 mg/kg), whereas the later experimental
-source used in this benchmark contains **288 records**. The later source corrects
-the oral LD50 of propamocarb (Code 32490) from **43,500 to 5,250 mg/kg**.
-We leave the Zenodo archive and the repository's historical `FlatDock_dataset`
-unchanged to preserve provenance.
+**Start with [`revised_2026/README.md`](revised_2026/README.md)** to reproduce
+the corrected experiments reported in the revised manuscript. This includes:
 
-`dataset/combined_dataset.csv` is the corrected **288-record starting table**, not
-the final evaluation cohort. The published source table requires identity and
-modality curation. The audit returns **249 retained records / 199 unique structures**.
-Full InChIKey (RDKit) or canonical isomeric SMILES fallback defines structural
-grouping. Ambiguous identifiers, incompatible labels, and unavailable complete
-modalities are excluded; multiple consistent records per structure are retained
-and assigned to the same side of each partition.
+- ChenseNet121 **and** ChInceptionV3, each evaluated on ten structure-grouped
+  held-out partitions with five grouped validation folds per partition;
+- 249 retained records representing 199 unique chemical structures, obtained
+  by explicit identity/endpoint/modality curation of a corrected 288-record table;
+- Ridge, LinearSVR and Random Forest baselines, including the 17-feature
+  FlatDock representation comparison;
+- matched structure/row predictions, group-split audits, and summary statistics.
 
-## What is included
+### Dataset version distinction
 
-- `dataset/combined_dataset.csv`: corrected 288-record source (not Zenodo v1 data).
-- `dataset/test_1_updated.csv` through `test_10_updated.csv`: original code-seeded
-  split lists; effective test membership is expanded by unique structure.
-- `dataset/voxel_features_nutridock_style_synthesized.csv`: 17 FlatDock features
-  for 256 codes (the same table as in the historical repository).
-- `audit/`: the resulting 249 retained records, 39 excluded records, and split
-  composition (computed using the corrected CSV and Zenodo v1 modalities).
-- `trainChenseNet121_full_grouped.py`, `densenet121.py`, `hyperparams.txt`:
-  grouped training / five-fold checkpoint ensembles for ChenseNet121.
-- `run_inception_10test_grouped.py`, `common.py`, `models/inceptionV3.py`:
-  grouped training / five-fold checkpoint ensembles for ChInceptionV3.
-- `baseline_no_docking_grouped.py`: descriptor-only classical baselines.
-- `REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py`: 17-feature FlatDock
-  classical benchmarking; its legacy input tree can be reconstructed locally.
-- `results_archives/`: corrected predictions, metrics, and split audits for CNNs,
-  original classical baselines, and FlatDock variants. Prediction archives were
-  generated during the manuscript revision; model checkpoint weights are not included.
+The Zenodo v1 data archive (`10.5281/zenodo.15800696`) contains **289** source
+records and retains the earlier propamocarb LD50 value of **43,500 mg/kg**.
+The corrected 2026 experimental source contains **288** records, uses
+**5,250 mg/kg** for propamocarb (Code 32490), and is provided in
+[`revised_2026/dataset/combined_dataset.csv`](revised_2026/dataset/combined_dataset.csv).
+The Zenodo archive additionally includes lactofen (Code 62276), not present
+in the corrected experimental source. The curated evaluation subset (249/199)
+is obtained by running the documented curation/audit, not by directly treating
+either source file as the final test cohort.
 
-## Getting the large input modalities
+The **old scripts in the repository root** (`trainDensenet121.py`,
+`test_csv_densenet.py`, `prepare_LD50_data.py`, etc.) remain as
+**historical implementations** and DO NOT reproduce the corrected
+structure-grouped benchmark. Their default local `./dataset` folder and some
+large input data are not included in the repository root; see the data
+preparation instructions under `revised_2026/` instead. Files in
+`FlatDock_dataset/` remain historical and should not be mistaken for the
+corrected curated cohort. The ten original code-based lists in `Test_splits/`
+are retained; expanded effective structure-grouped assignments are validated
+in the revision scripts.
 
-Download the archived `LD50_multimodal_dataset.zip` (Zenodo record 15800696)
-and put it anywhere on disk. In this folder, run:
+### Citation and usage
 
-```shell
-python preparar_dataset_local.py "C:\ruta\LD50_multimodal_dataset.zip"
-python -m pip install -r requirements_revision_2026.txt
-python baseline_no_docking_grouped.py --audit-only
-```
-
-The preparation script extracts both full-resolution and smaller voxel descriptor files, together with molecular images
-from the original Zenodo archive; it **does not overwrite the corrected CSV**.
-The audit (no training) should show 249 retained records, 199 unique structures,
-and zero exact-structure overlap in all ten outer tests.
-
-## Optional training/reproduction
-
-From the `revised_2026` folder after preparing the modalities:
-
-```shell
-python trainChenseNet121_full_grouped.py --audit-only
-python run_inception_10test_grouped.py --audit-only
-# Full model retraining is computationally expensive and optional:
-# python trainChenseNet121_full_grouped.py
-# python run_inception_10test_grouped.py
-```
-
-FlatDock: reconstruct the canonical test reference files shipped as an archive,
-then audit without retraining:
-
-```shell
-python preparar_flatdock_local.py
-python REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py --root flatdock_local --audit-only
-```
-
-For a complete rerun of the classical FlatDock regressors, pass
-`--with-controls` (this creates new output files under `flatdock_local`).
-
-## Evaluation and interpretation
-
-Both CNNs use five structure-grouped training/validation folds per test,
-validation-selected checkpoints, and mean ensemble predictions. Regression
-performance is evaluated on **unique structures**: per-structure predictions
-from repeated records are averaged before MSE/MAE calculation. The ten test
-sets overlap, so their error summaries do not represent independent external
-test cohorts. The primary endpoint is continuous acute oral LD50 regression;
-exploratory classification at 2,000 mg/kg is not a separate optimized model.
-
-The original Zenodo v1 dataset has not been silently altered. Any claims in
-older code, tables, or metadata should be interpreted within their historical
-experiment, not as corrected 2026 benchmark results.
+When citing the corrected manuscript, please use its final bibliographic
+reference once published. The Zenodo v1 DOI identifies the original deposited
+source, not the corrected 2026 experimental data. Results require further
+independent evaluation before use in regulatory toxicological assessment.
