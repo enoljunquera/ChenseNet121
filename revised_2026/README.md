@@ -27,8 +27,7 @@ and assigned to the same side of each partition.
 - `dataset/combined_dataset.csv`: corrected 288-record source (not Zenodo v1 data).
 - `dataset/test_1_updated.csv` through `test_10_updated.csv`: original code-seeded
   split lists; effective test membership is expanded by unique structure.
-- `dataset/voxel_features_nutridock_style_synthesized.csv`: 17 FlatDock features
-  for 256 codes (the same table as in the historical repository).
+- - `dataset/voxel_features_nutridock_style_synthesized.csv`: 17 regional FlatDock descriptors for 256 codes, derived from the four PyRosetta energy components (`fa_atr`, `fa_rep`, `fa_elec`, and `fa_sol`).
 - `audit/`: the resulting 249 retained records, 39 excluded records, and split
   composition (computed using the corrected CSV and Zenodo v1 modalities).
 - `trainChenseNet121_full_grouped.py`, `densenet121.py`, `hyperparams.txt`:
@@ -81,6 +80,18 @@ python REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py --root flatdock_local --audit-
 For a complete rerun of the classical FlatDock regressors, pass
 `--with-controls` (this creates new output files under `flatdock_local`).
 
+## FlatDock descriptors
+
+The three-dimensional representations consist of 25 × 25 × 25 × 8 voxel tensors combining four structural channels and four energetic channels.
+
+The energetic channels (indices 4–7) encode residue-level energy differences between the reference and docked protein structures, calculated using PyRosetta:
+
+- `fa_atr`: van der Waals attraction.
+- `fa_rep`: van der Waals repulsion.
+- `fa_elec`: electrostatic interactions.
+- `fa_sol`: implicit solvation.
+
+FlatDock features summarize these energetic contributions across predefined spatial regions (`core` and `shell1`) using statistical aggregation. The resulting 17 descriptors provide a compact representation of the spatial energy distribution for classical machine-learning models.
 ## Evaluation and interpretation
 
 Both CNNs use five structure-grouped training/validation folds per test,
