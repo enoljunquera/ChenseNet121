@@ -35,7 +35,7 @@ and assigned to the same side of each partition.
 - `run_inception_10test_grouped.py`, `common.py`, `models/inceptionV3.py`:
   grouped training / five-fold checkpoint ensembles for ChInceptionV3.
 - `baseline_no_docking_grouped.py`: descriptor-only classical baselines.
-- `REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py`: 17-feature FlatDock
+- `train_flatdock.py`: 17-feature FlatDock
   classical benchmarking; its legacy input tree can be reconstructed locally.
 - `results_archives/`: corrected predictions, metrics, and split audits for CNNs,
   original classical baselines, and FlatDock variants. Prediction archives were
@@ -74,7 +74,7 @@ then audit without retraining:
 
 ```shell
 python preparar_flatdock_local.py
-python REENTRENAR_FLATDOCK_10TESTS_VERIFICABLE.py --root flatdock_local --audit-only
+python train_flatdock.py --root flatdock_local --audit-only
 ```
 
 For a complete rerun of the classical FlatDock regressors, pass
